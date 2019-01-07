@@ -1,0 +1,135 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+/*GLOBAL*/
+* {
+/* #2 #font #faces */
+font-family: 'Roboto','Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+/* #2 #colorful #background */
+background-color: #F5F5F5;
+}
+  
+strong, button {
+/* #2 #font #locations need an extra element, we'll use strong for w3w locations. Also included buttons with this attribute */
+text-transform: uppercase;
+}
+  
+/*APP BAR*/
+
+h1 {
+/* #2 #colourful #app-bar */
+background-color: #3F51B5;
+color: white;
+}
+
+/*CHANNELS LIST*/
+/*styles for channel area*/
+h2 {
+/* #2 #colorful #channelandchat */
+background-color: white;
+}
+ul {
+/*list background color*/
+background-color: white;
+list-style-type: none;
+
+        
+}
+
+li {
+    border-bottom: 1px solid #F5F5F5;
+    padding: 16px;
+    font: 16px;
+    border-left: 4px solid white;
+    box-sizing: border-box;
+    }
+
+
+.active {
+    color: #3F51B5;
+    border-left: 4px solid blue;
+
+}
+
+.star {
+    vertical-align: middle
+}
+
+/*TAB BAR*/
+
+div.tab-bar {
+background-color: white;
+width: auto;    
+}
+
+.tab-button {
+/* #2 #colourful #plusfive pending change color */
+    background-color: white;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+    border: none;
+    border-bottom: 5px solid white;
+}
+
+.icon{
+    display: block;
+    margin: 0 auto 4px auto;
+}
+.tab-button.selected {
+    border-bottom-color: #3F51B5
+}
+/*esto lo hice temporalmente*/
+
+
+
+
+/*MESSAGES*/
+/*styles for chat area*/
+
+.message { 
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%
+}
+
+.own{
+    margin-left: 17.5%;
+}
+
+.message p{
+    padding: 16px;
+    background-color: white;
+}
+
+/* #2 #font #metadata is now medium */
+.message h3 {
+    font-size: medium;   
+}
+.message button {
+    background-color: #CDDC39;
+    color: black;
+    text-align: center;
+}
+.message em {
+/* #2 #font #remaining overrides the default italic appearance of em elements*/
+font-size: larger;
+font-style: normal;
+}
+
+.message a {
+color: black;
+}
